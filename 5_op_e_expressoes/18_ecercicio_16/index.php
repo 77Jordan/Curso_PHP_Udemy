@@ -17,7 +17,7 @@ if ($a == $c){
 }
 
 if ($a !== $c){
-    echo "inteiro 5 é igual a string 5, pois ! = = julga se a variável é diferente quanto a valor e tipo <br>";
+    echo "inteiro 5 é totalmente diferente a string 5, pois ! = = julga se a variável é diferente quanto ao valor e tipo <br>";
 }
 
 if ($a != $c){
