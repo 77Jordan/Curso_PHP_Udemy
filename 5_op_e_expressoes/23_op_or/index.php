@@ -13,7 +13,7 @@ if(5 > 20 || 3 < 4){ // false e true
 }
 
 if(5 > 20 || 30 < 4){ // false e false
-    echo "A operação 1 é verdadeira <br>";
+    echo "A operação 4 é verdadeira <br>";
 }
 
 $a = 10;
