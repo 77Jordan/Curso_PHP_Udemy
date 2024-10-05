@@ -19,5 +19,5 @@ if($e <= $f){
 }
 else echo "12 é maior que 11 <br>";
 
-//JORDINHOOOO
+salvei porra aleluia
 ?>
