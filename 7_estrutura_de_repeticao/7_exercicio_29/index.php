@@ -20,5 +20,4 @@ while($x < count($vet)) {
     
 }
 
-
 ?>
