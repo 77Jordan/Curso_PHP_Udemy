@@ -1,4 +1,9 @@
 <?php 
 
+function teste() {
+
+    // código
+
+}
 
 ?>
