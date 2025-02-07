@@ -15,4 +15,5 @@
     echo "O quadrado é " . quadrado(60) . "<br>";
     echo "O quadrado é " . quadrado(90) . "<br>";
 
+    ///// fffffffffffffffffffff
 ?>
