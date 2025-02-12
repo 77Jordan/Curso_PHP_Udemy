@@ -8,7 +8,7 @@ class Car {
     public $vel_max;
 
     function setVelMax($vel_max) {
-        $this->vel_max = $vel_max;
+    $this->vel_max = $vel_max;
        
     }
 }
