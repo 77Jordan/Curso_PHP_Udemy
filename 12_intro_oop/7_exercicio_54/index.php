@@ -8,6 +8,7 @@
         function andar($m) {
 
             echo "A pessoa andou $m metros <br>";
+            echo "<br><br>";
 
         }
     }
