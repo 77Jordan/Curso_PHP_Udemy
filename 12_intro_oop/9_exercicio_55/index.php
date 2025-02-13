@@ -8,9 +8,14 @@ class Car {
     public $vel_max;
 
     function setVelMax($vel_max) {
-    $this->vel_max = $vel_max;
+        $this->vel_max = $vel_max;
        
     }
+    function getVelMax() {
+         return $this->vel_max;
+    }
+
+    
 }
 
     $carro = new Car;
@@ -19,6 +24,7 @@ class Car {
     $carro->cor = "Branco";
     $carro->setVelMax(50);
 
-    echo "O carro possui a cor $carro->cor, é da marca $carro->marca e está a $carro->vel_max km/h <br>";
-
+    echo "O carro possui a cor $carro->cor, é da marca $carro->marca e está a " . $carro->getVelMax() . "km/h <br>";
+    $carro->setVelMax(100);
+    echo $carro->getVelMax() . "km/h <br>";
 ?>
