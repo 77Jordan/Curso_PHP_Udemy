@@ -39,4 +39,10 @@ class Car {
     echo "O carro possui a cor " .  $carro->getCor() . ", é da marca " . $carro->getMarca() . " e está a " . $carro->getVelMax() . "km/h <br>";
     $carro->setVelMax(100);
     echo $carro->getVelMax() . "km/h <br>";
+    var_dump($carro);
+
+    echo $carro->getMarca("Ford") . "<br>";
+    echo $carro->getCor("Branco") . "<br>";
+    echo $carro->getVelMax(50) . "<br>";
 ?>
+
