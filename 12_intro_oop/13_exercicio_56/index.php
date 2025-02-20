@@ -4,13 +4,13 @@
 
         public $idade = 23;
         public $tamanho = 1.66;
-        public $peso = 65;
+         public $peso = 65;
 
         protected function falar() {
             echo "Falando <br>";
         }
 
-        public function acessarFalar() {
+         function acessarFalar() {
             $this->falar();
         }
 
@@ -19,10 +19,10 @@
 
     class Professor extends Humano {
 
-        public $ensino = "seila";
-        public $carro = 2;
+         public $ensino = "seila";
+         public $carro = 2;
 
-        public function acessarFalarProgramador() {
+         function acessarFalarProgramador() {
             $this->falar();
         }
     }
