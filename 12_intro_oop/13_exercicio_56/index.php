@@ -4,14 +4,22 @@
 
         public $idade = 23;
         public $tamanho = 1.66;
-         public $peso = 65;
-
+        private $peso = 65;
+    
         protected function falar() {
             echo "Falando <br>";
         }
 
-         function acessarFalar() {
+        function acessarFalar() {
             $this->falar();
+        }
+
+        function setPeso($peso) {
+            $this->peso = $peso;
+        }
+
+        function getPeso() {
+            return $this->peso;
         }
 
     }
@@ -32,16 +40,18 @@
     echo $Jordinho->acessarFalar();
     echo $Jordinho->idade . "<br>";
     echo $Jordinho->tamanho . "<br>";
-    echo $Jordinho->peso . "<br>";
-
+    
     echo "<br><br>";
 
     $tenalmeida = new Professor;
 
+    $tenalmeida->setPeso(700);
     echo $tenalmeida->acessarFalarProgramador();
     echo $tenalmeida->idade . "<br>";
     echo $tenalmeida->tamanho . "<br>";
-    echo $tenalmeida->peso . "<br>";
+    echo $tenalmeida->getPeso() . "<br>";
     echo $tenalmeida->ensino . "<br>";
     echo $tenalmeida->carro . "<br>";
+    
+
 ?>

@@ -3,6 +3,7 @@
     class Humano {
 
         public $idade = 23;
+        protected $nome = '23';
 
         public function falar() {
             echo "Olá Mundo! <br>";
@@ -30,13 +31,14 @@
 
             public function acessarFalarBaixinhoProgramador(){
                 $this->falarBaixinho();
+                $this->nome;
             }
 
     }
 
     $jordinho = new Humano;
 
-    echo $jordinho->idade;
+    echo $jordinho->nome;
     echo $jordinho->falar();
     echo $jordinho->acessarGritar();
     echo $jordinho->acessarFalarBaixinho();
@@ -45,7 +47,7 @@
 
     $cbcosta = new Programador;
 
-    echo $cbcosta->idade;
+    echo $cbcosta->nome;
     echo $cbcosta->falar();
     echo $cbcosta->acessarGritar();
     echo $cbcosta->acessarFalarBaixinhoProgramador();
