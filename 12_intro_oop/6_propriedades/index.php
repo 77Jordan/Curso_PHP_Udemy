@@ -3,25 +3,40 @@
     class Car {
 
         public $rodas = 4;
-        public $aro = 20;
+        private $aro = 20;
         public $cor = "vermelha";
 
         function ligar() {
             echo "VRUUUUMMM <br>";
         }
+        function setAro($aro) {
+            $this->aro = $aro;    
+        }
+
+        function getAro() {
+            return $this->aro;
+        }
+
+
 
     }
 
     $fiat = new Car;
 
-    echo $fiat->aro . "<br>";
-    echo $fiat->rodas . "<br>";
+    echo $fiat->getAro() . "<br>";
+    
+    $fiat->setAro(50);
+    $fiat->setAro(70);
 
-    echo $fiat->cor . "<br>";
+    echo $fiat->getAro() . "<br>";
 
-    $fiat->cor = "Azul";
+    //echo $fiat->rodas . "<br>";
 
-    echo $fiat->cor . "<br>";
+    // echo $fiat->cor . "<br>";
 
-    $fiat->ligar();
+    // $fiat->cor = "Azul";
+
+    // echo $fiat->cor . "<br>";
+
+     $fiat->ligar();
 ?>
