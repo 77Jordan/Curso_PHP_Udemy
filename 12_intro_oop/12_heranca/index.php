@@ -3,7 +3,7 @@
     class Humano {
 
         public $idade = 23;
-        protected $nome = '23';
+        public $nome = '23';
 
         public function falar() {
             echo "Olá Mundo! <br>";
