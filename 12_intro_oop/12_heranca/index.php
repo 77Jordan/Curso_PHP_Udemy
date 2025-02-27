@@ -51,6 +51,5 @@
     echo $cbcosta->falar();
     echo $cbcosta->acessarGritar();
     echo $cbcosta->acessarFalarBaixinhoProgramador();
-
     
 ?>
