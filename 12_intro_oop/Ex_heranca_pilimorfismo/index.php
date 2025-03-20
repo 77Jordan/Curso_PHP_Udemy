@@ -43,9 +43,5 @@
 
     $fodase = new Gato;
     echo $fodase->fazerSom();
-    echo $fodase->SomGato();
-
-
-    
-    
+    echo $fodase->SomGato();  
 ?>
