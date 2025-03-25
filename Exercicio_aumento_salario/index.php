@@ -50,7 +50,7 @@
         public function aumentarSalario($percentual) {
             echo "O salario atual do getente é: $this->salario reais <br>";
             echo "O aumento foi de: $percentual% <br>";    
-            echo "O salario foi para: " . $this->resultado = $this->salario + (($this->salario * $percentual)/100) . " reais <br>";         
+            $this->resultado = $this->salario + (($this->salario * $percentual)/100);         
             echo "O gerente recebeu 10% de bonus pelo aumento de salario! <br>";
             echo "O salario foi para: " . $this->resultado*1.1;
         }
@@ -59,10 +59,10 @@
     $jordan = new Funcionario("Jordan", "TI", 1000);
         
         echo "O nome do funcionário é: " . $jordan->getNome() . "<br>";
-        $jordan->aumentarSalario(10); 
+        $jordan->aumentarSalario(20); 
         
         echo "<br><br>";
         
     $chefe = new Gerente("Jordão", "Seila", 4000);
-    $chefe->aumentarSalario(10);
+    $chefe->aumentarSalario(20);
 ?>
