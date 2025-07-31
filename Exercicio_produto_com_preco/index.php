@@ -16,5 +16,5 @@
 
     $alface = new Produto("Alface", 3.99);
 
-    $alface->exibirPreco(); 
+    $alface->exibirPreco();  dsfhfdghfdghfdghfdg
 ?>
